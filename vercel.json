@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "assets/index-BasQm1Tr.js",
+        "use": "@vercel/static"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/qsbackend/assets/index-BasQm1Tr.js",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/javascript"
+          }
+        ]
+      }
+    ]
+  }
+  
